@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo URL Scheme</title>
+</head>
+<body>
+	
+	<!-- Link Share Whatsapp (Only iOS)-->
+	<a data-params="[{name: 'text', text: 'Hola Mundo http://json.cl'}]" data-schema="whatsapp" data-method="send" data-package="com.whatsapp" href="#"  class="shareintentlink"  target="_blank">Whatsapp</a>
+	<br />
+	
+	<!-- Link Share Twitter (iOS & Android) -->
+	<a data-params="[{name: 'message', text: 'Hola Mundo http://json.cl'}]" data-schema="twitter" data-method="post" data-package="com.twitter.android" href="#" class="shareintentlink" target="_blank">Twiter</a>
+
+
+	<!-- Include script -->
+	<script type="text/javascript" src="./../MobileURLScheme.js"></script>
+</body>
+</html>
